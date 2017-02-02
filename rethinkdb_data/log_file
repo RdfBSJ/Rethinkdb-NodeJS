@@ -1,0 +1,81 @@
+2017-01-27T12:22:09.535605000 0.242027s info: Creating directory /Users/rodolfo/ProyectosBrackets/RethinkDB/rethinkdb_data
+2017-01-27T12:22:09.537143000 0.243564s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/rodolfo/ProyectosBrackets/RethinkDB/rethinkdb_data' did not already exist.)
+2017-01-27T12:22:09.537196000 0.243617s info: Running rethinkdb 1.6.1 (CLANG 4.1 ((tags/Apple/clang-421.11.66)))...
+2017-01-27T12:22:09.542936000 0.249357s info: Running on Darwin 15.6.0 x86_64
+2017-01-27T12:22:09.542996000 0.249417s info: Loading data from directory /Users/rodolfo/ProyectosBrackets/RethinkDB/rethinkdb_data
+2017-01-27T12:22:10.481658000 1.188079s info: Listening for intracluster connections on port 29015
+2017-01-27T12:22:10.485443000 1.191865s info: Listening for client driver connections on port 28015
+2017-01-27T12:22:10.485468000 1.191889s info: Listening for administrative HTTP connections on port 8080
+2017-01-27T12:22:10.485470000 1.191891s info: Listening on addresses: 127.0.0.1
+2017-01-27T12:22:10.485471000 1.191892s info: To fully expose RethinkDB on the network, bind to all addresses
+2017-01-27T12:22:10.485471000 1.191892s info: by running rethinkdb with the `--bind all` command line option.
+2017-01-27T12:22:10.485472000 1.191893s info: Server ready
+2017-01-27T12:34:37.372111000 748.078532s info: Server got SIGINT; shutting down...
+2017-01-27T12:34:37.372513000 748.078934s info: Shutting down client connections...
+2017-01-27T12:34:37.373024000 748.079445s info: All client connections closed.
+2017-01-27T12:34:37.373035000 748.079456s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-01-27T12:34:37.373047000 748.079468s info: Storage engine shut down.
+2017-01-27T12:38:27.939175000 0.329434s info: Running rethinkdb 1.6.1 (CLANG 4.1 ((tags/Apple/clang-421.11.66)))...
+2017-01-27T12:38:27.944069000 0.334328s info: Running on Darwin 15.6.0 x86_64
+2017-01-27T12:38:27.944129000 0.334387s info: Loading data from directory /Users/rodolfo/ProyectosBrackets/RethinkDB/rethinkdb_data
+2017-01-27T12:38:27.955501000 0.345759s info: Listening for intracluster connections on port 29015
+2017-01-27T12:38:27.956752000 0.347010s info: Listening for client driver connections on port 28015
+2017-01-27T12:38:27.956769000 0.347027s info: Listening for administrative HTTP connections on port 8080
+2017-01-27T12:38:27.956770000 0.347028s info: Listening on addresses: 127.0.0.1
+2017-01-27T12:38:27.956771000 0.347029s info: To fully expose RethinkDB on the network, bind to all addresses
+2017-01-27T12:38:27.956771000 0.347029s info: by running rethinkdb with the `--bind all` command line option.
+2017-01-27T12:38:27.956772000 0.347030s info: Server ready
+2017-01-27T16:43:44.657982000 3310.992848s info: Server got SIGINT; shutting down...
+2017-01-27T16:43:44.660928000 3310.995794s info: Shutting down client connections...
+2017-01-27T16:43:44.665413000 3311.000279s info: All client connections closed.
+2017-01-27T16:43:44.665449000 3311.000315s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-01-27T16:43:44.665452000 3311.000318s info: Storage engine shut down.
+2017-01-29T11:57:47.544112000 0.279329s info: Running rethinkdb 1.6.1 (CLANG 4.1 ((tags/Apple/clang-421.11.66)))...
+2017-01-29T11:57:47.554886000 0.290085s info: Running on Darwin 15.6.0 x86_64
+2017-01-29T11:57:47.554941000 0.290140s info: Loading data from directory /Users/rodolfo/ProyectosBrackets/RethinkDB/rethinkdb_data
+2017-01-29T11:57:47.572898000 0.308097s info: Listening for intracluster connections on port 29015
+2017-01-29T11:57:47.574867000 0.310066s info: Listening for client driver connections on port 28015
+2017-01-29T11:57:47.574886000 0.310084s info: Listening for administrative HTTP connections on port 8080
+2017-01-29T11:57:47.574887000 0.310085s info: Listening on addresses: 127.0.0.1
+2017-01-29T11:57:47.574888000 0.310086s info: To fully expose RethinkDB on the network, bind to all addresses
+2017-01-29T11:57:47.574888000 0.310086s info: by running rethinkdb with the `--bind all` command line option.
+2017-01-29T11:57:47.574889000 0.310087s info: Server ready
+2017-01-29T11:58:08.109710000 20.844909s info: Server got SIGINT; shutting down...
+2017-01-29T11:58:08.110067000 20.845265s info: Shutting down client connections...
+2017-01-29T11:58:08.110501000 20.845699s info: All client connections closed.
+2017-01-29T11:58:08.110512000 20.845710s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-01-29T11:58:08.110513000 20.845712s info: Storage engine shut down.
+2017-01-29T11:58:53.220851000 0.003100s info: Running rethinkdb 1.6.1 (CLANG 4.1 ((tags/Apple/clang-421.11.66)))...
+2017-01-29T11:58:53.225290000 0.007538s info: Running on Darwin 15.6.0 x86_64
+2017-01-29T11:58:53.225336000 0.007584s info: Loading data from directory /Users/rodolfo/ProyectosBrackets/RethinkDB/rethinkdb_data
+2017-01-29T11:58:53.235705000 0.017954s info: Listening for intracluster connections on port 29015
+2017-01-29T11:58:53.236955000 0.019204s info: Listening for client driver connections on port 28015
+2017-01-29T11:58:53.236969000 0.019217s info: Listening for administrative HTTP connections on port 8080
+2017-01-29T11:58:53.236970000 0.019219s info: Listening on addresses: 127.0.0.1
+2017-01-29T11:58:53.236971000 0.019219s info: To fully expose RethinkDB on the network, bind to all addresses
+2017-01-29T11:58:53.236971000 0.019220s info: by running rethinkdb with the `--bind all` command line option.
+2017-01-29T11:58:53.236972000 0.019221s info: Server ready
+2017-01-29T11:59:19.981787000 26.764036s info: Server got SIGINT; shutting down...
+2017-01-29T11:59:19.982160000 26.764409s info: Shutting down client connections...
+2017-01-29T11:59:19.982546000 26.764795s info: All client connections closed.
+2017-01-29T11:59:19.982557000 26.764806s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-01-29T11:59:19.982559000 26.764808s info: Storage engine shut down.
+2017-01-29T12:01:30.665321000 0.239986s info: Running rethinkdb 1.6.1 (CLANG 4.1 ((tags/Apple/clang-421.11.66)))...
+2017-01-29T12:01:30.669841000 0.244505s info: Running on Darwin 15.6.0 x86_64
+2017-01-29T12:01:30.669905000 0.244569s info: Loading data from directory /Users/rodolfo/ProyectosBrackets/RethinkDB/rethinkdb_data
+2017-01-29T12:01:30.681633000 0.256296s info: Listening for intracluster connections on port 29015
+2017-01-29T12:01:30.682963000 0.257626s info: Listening for client driver connections on port 28015
+2017-01-29T12:01:30.682983000 0.257646s info: Listening for administrative HTTP connections on port 8080
+2017-01-29T12:01:30.682985000 0.257648s info: Listening on addresses: 127.0.0.1
+2017-01-29T12:01:30.682986000 0.257649s info: To fully expose RethinkDB on the network, bind to all addresses
+2017-01-29T12:01:30.682986000 0.257650s info: by running rethinkdb with the `--bind all` command line option.
+2017-01-29T12:01:30.682987000 0.257650s info: Server ready
+2017-01-29T12:01:46.773512000 16.348176s info: Server got SIGINT; shutting down...
+2017-01-29T12:01:46.773860000 16.348524s info: Shutting down client connections...
+2017-01-29T12:01:46.774336000 16.349000s info: All client connections closed.
+2017-01-29T12:01:46.774347000 16.349011s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-01-29T12:01:46.774349000 16.349012s info: Storage engine shut down.
+2017-01-29T13:56:20.641859000 0.007699s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2017-01-29T13:56:20.646577000 0.012414s notice: Running on Darwin 15.6.0 x86_64
+2017-01-29T13:56:20.646620000 0.012455s notice: Loading data from directory /Users/rodolfo/ProyectosBrackets/RethinkDB/rethinkdb_data
+2017-01-29T13:56:20.648127000 0.013963s error: File version is incorrect. This file was created with RethinkDB's serializer version 1.6, but you are trying to read it with version 2.2.  See http://rethinkdb.com/docs/migration/ for information on migrating data from a previous version.

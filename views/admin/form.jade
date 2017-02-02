@@ -1,0 +1,11 @@
+extends ../layout.jade
+block contenido
+	div(class="row")
+		div(class="col-lg-4")
+		div(class="col-lg-4")
+			form(method="post" action="/admin")
+				div(class="form-group")
+					label(for="clave") Contraseña usuario:
+					input(type="password" class="form-control" placeholder="Contraseña" name="clave")
+				button(type="submit" class="btn btn-primary pull-right") Enviar
+		div(class="col-lg-4")

@@ -1,0 +1,13 @@
+extends ../layout.jade
+block contenido
+
+	div(class="row")
+		div(class="col-lg-3")
+		div(class="col-lg-6")
+			h1 Eliminar producto: #[span= producto.Nombre]
+			form(method="POST" action="/borrar/#{producto.id}?_method=delete")
+				div(class="form-group")
+					label(for="clave") Contraseña usuario:
+					input(type="password" class="form-control" placeholder="Contraseña" name="clave")
+				button(type="submit" class="btn btn-primary pull-right") Guardar
+		div(class="col-lg-3")

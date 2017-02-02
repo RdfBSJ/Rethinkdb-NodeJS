@@ -1,0 +1,22 @@
+extends ../layout.jade
+block contenido
+
+	div(class="row")
+		div(class="col-lg-3")
+		div(class="col-lg-6")
+			h1 Agregar nuevo producto
+			form(method="post" action="/producto")
+				div(class="form-group")
+					label(for="nombre") Nombre:
+					input(type="text" class="form-control" placeholder="Nombre" name="nombre")
+				div(class="form-group")
+					label(for="descripcion") Descripción:
+					textarea(class="form-control" placeholder="Descripcion" name="descripcion")
+				div(class="form-group")
+					label(for="precio") Precio producto:
+					input(type="number" class="form-control" placeholder="Precio" name="precio")
+				div(class="form-group")
+					label(for="clave") Contraseña usuario:
+					input(type="password" class="form-control" placeholder="Contraseña" name="clave")
+				button(type="submit" class="btn btn-primary pull-right") Guardar
+		div(class="col-lg-3")

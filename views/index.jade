@@ -1,0 +1,70 @@
+doctype html
+html(lang="es")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(name="description" content="")
+    meta(name="author" content="")
+    title Ferretera La Unión Km 31
+    link(href="bootstrap/css/bootstrap.min.css" rel="stylesheet")
+    link(href="styles/navbar-fixed-top.css" rel="stylesheet")
+  body
+    nav(class="navbar navbar-default navbar-fixed-top")
+      div(class="container")
+        div(class="navbar-header")
+          button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar")
+            span(class="sr-only") Toggle navigation
+            span(class="icon-bar")
+            span(class="icon-bar")
+            span(class="icon-bar")
+          a(class="navbar-brand" href="#") Ferretera
+        div(id="navbar" class="navbar-collapse collapse")
+          ul(class="nav navbar-nav")
+            li(class="active")
+              a(href="/") Inicio
+            li
+              a(href="#about") Acerca
+            li
+              a(href="#contact") Contacto
+            li(class="dropdown")
+              a(href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false") Proveedores #[span(class="caret")]
+              ul(class="dropdown-menu" role="menu")
+                li
+                  a(href="#") Proveedor 1
+                li
+                  a(href="#") Proveedor 2
+                li
+                  a(href="#") Proveedor 3
+                li(class="divider")
+                li(class="dropdown-header") Recientes
+                li
+                  a(href="#") Proveedor 4
+                li
+                  a(href="#") Proveedor 5
+          ul(class="nav navbar-nav navbar-right")
+            li
+              a(href="#Precios") Precios
+            li(class="dropdown")
+              a(href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false") Productos #[span(class="caret")]
+              ul(class="dropdown-menu" role="menu")
+                li
+                  a(href="/productos/nuevo") Agregar nuevo
+                li
+                  a(href="/productos/lista") Lista completa
+                li
+                  a(href="/admin/form") Administrar
+            li
+              a(href="#Registrate") Registrate #[span(class="sr-only")(current)]
+      
+    div(class="container")
+      div(class="jumbotron")
+        h1 Promociones
+        p This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device
+        p To see the difference between static and fixed top navbars, just scroll
+        p
+          a(class="btn btn-lg btn-primary" href="../../components/#navbar" role="button") Ver todas &raquo;
+
+    script(src="jquery/jquery.js")
+    script(src="bootstrap/js/bootstrap.min.js")
+    script(src="scripts/ie10-viewport-bug-workaround.js")
